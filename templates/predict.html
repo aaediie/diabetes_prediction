@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Page</title>
+    {% load static %}
+    <link rel="stylesheet" href="{%static 'predict.css' %}" >
+</head>
+<body>
+    <div class="container">
+        <div class="title">Please Enter Details!</div>
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Pregnancies</span>
+                    <input type="text" placeholder="enter pregnancies" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Glucose</span>
+                    <input type="text" placeholder="enter glucose" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Blood Pressure</span>
+                    <input type="text" placeholder="enter blood pressure" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Skin Thickness</span>
+                    <input type="text" placeholder="enter skin thickness" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Insulin</span>
+                    <input type="text" placeholder="enter insulin" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">BMI</span>
+                    <input type="text" placeholder="enter BMI" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Diabetes pedigree function</span>
+                    <input type="text" placeholder="enter value" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Age</span>
+                    <input type="text" placeholder="enter age" required>
+                </div>
+                <input type="submit">
+            </div>
+        </form>
+        Result:{{result2}}
+
+    </div>
+</body>
+</html>
