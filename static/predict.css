@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins' , sans-serif;
+    color:black;
 }
 body{
     display:flex;
@@ -80,8 +81,9 @@ background: black;
 display: inline-block;
 letter-spacing: 1px;
 }
-.Result{
-
+.h3{
+color: black;
+font-weight: 500;
 }
 
 @media (max-width: 584px){
